@@ -87,7 +87,7 @@
 <section class="container pb-5">
     <div class="row g-2">
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-            <a href="#">
+            <a href="#ifm">
                 <div class="index_page_btn_div">
                     <img src="img/index2.png" alt="icon">
                     <h3>( IFM ) Services</h3>
@@ -98,7 +98,7 @@
             </a>
         </div>
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-            <a href="#">
+            <a href="#it">
                 <div class="index_page_btn_div">
                     <img src="img/index3.png" alt="icon">
                     <h3>IT & Non-IT Supplies</h3>
@@ -109,7 +109,7 @@
             </a>
         </div>
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-            <a href="#">
+            <a href="#pcs">
                 <div class="index_page_btn_div">
                     <img src="img/index4.png" alt="icon">
                     <h3>Professional Consultancy Services</h3>
@@ -119,7 +119,7 @@
             </a>
         </div>
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-            <a href="#">
+            <a href="#evcs">
                 <div class="index_page_btn_div">
                     <img src="img/index5.png" alt="icon">
                     <h3>EV Charging Solution</h3>
@@ -132,7 +132,7 @@
 </section>
 <!-- index page btn -->
 <!-- Integrated Facility Management Services -->
-<section class="mb-5 ifm_top_div">
+<section class="mb-5 ifm_top_div" id="ifm">
     <div class="container">
         <div class="title_index_about title_index_about2">
             <p><i class="fas fa-circle"></i> IFM</p>
@@ -268,7 +268,7 @@
 <!-- Integrated Facility Management Services end -->
 <?php include 'mobileApp.php';?>
 <!-- IT And Non-IT Supplies -->
-<section class="container pb-5">
+<section class="container pb-5" id="it">
     <div class="title_index_about title_index_about2">
         <p><i class="fas fa-circle"></i> Supplies</p>
         <h3>
@@ -323,7 +323,7 @@
 </section>
 <!-- IT And Non-IT Supplies end -->
 <!-- Professional Consultancy Services -->
-<section class=" mb-5 pcs_top_div">
+<section class=" mb-5 pcs_top_div" id="pcs">
     <div class="pcs_overlaey_div">
         <div class="container">
             <div class="title_index_about title_index_about2">
@@ -429,7 +429,7 @@
 </section>
 <!-- Professional Consultancy Services end -->
 <!-- Electric Vehicle Charging Solution -->
-<section class="container pb-5">
+<section class="container pb-5" id="evcs">
     <div class="title_index_about title_index_about2 mb-3">
         <p><i class="fas fa-circle"></i> Solution</p>
         <h3>

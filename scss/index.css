@@ -73,6 +73,10 @@ a {
   width: 12rem;
 }
 
+.drowpdown_text span {
+  color: #8cc63f;
+}
+
 .top_nav_mmain_div {
   background-color: white;
   padding: 0.5rem 0;
@@ -223,6 +227,9 @@ a {
   align-items: center;
 }
 
+.title_index_about {
+  text-transform: capitalize;
+}
 .title_index_about p {
   margin-bottom: 5px;
   font-size: 18px;
@@ -898,4 +905,139 @@ a {
 
 .nav_contact_btn_new {
   width: 8rem !important;
+}
+
+.management_system_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.x3_img {
+  width: 100%;
+  height: 36rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.add_section_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_section {
+  background-color: #eff3f5;
+  padding: 2rem 0;
+}
+.add_section img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20rem;
+  height: 26rem;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.add_section_text h3 {
+  font-size: 24px;
+  margin-bottom: 2px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.add_section_text p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: white;
+  width: 20rem;
+}
+
+.add_section_title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.add_section_title h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+.add_section_title p {
+  margin-bottom: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.photo_list_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_list_div img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 88%;
+  height: 40rem;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.bg_div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/bg.jpg);
+  width: 100%;
+  margin-top: 4rem;
+  height: 30rem;
+  position: relative;
+}
+
+.bg_div_inner {
+  background-color: rgba(0, 0, 0, 0.4901960784);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_div_inner_text {
+  position: absolute;
+  text-align: center;
+}
+.bg_div_inner_text h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.let_talk_btn {
+  background-color: #8cc63f;
+  color: white;
+  text-transform: capitalize;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 550;
+}
+.let_talk_btn:hover {
+  color: white;
+  background-color: #8cc63f;
 }/*# sourceMappingURL=index.css.map */

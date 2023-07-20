@@ -37,12 +37,13 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="dropdown-item" href="index.php#it">
                                               <span>IT & Non-IT Supplies</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
+                                              href="ev_chargers.php">
                                               <span>EV-Chargers</span>
                                           </a>
                                       </li>
