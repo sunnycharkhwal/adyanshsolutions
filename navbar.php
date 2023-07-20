@@ -75,12 +75,12 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="dropdown-item" href="index.php#ifm">
                                               <span>Integrated Facility Management Services</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="dropdown-item" href="index.php#pcs">
                                               <span>Professional Consultancy Services</span>
                                           </a>
                                       </li>
