@@ -982,3 +982,45 @@ a {
     background-color: $g;
   }
 }
+.management_system_img_new {
+  @include bg_img;
+  height: 34rem;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.management_system_img_new_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.management_system_img_new3 {
+  padding: 1rem;
+  @include bg_img;
+  height: 8rem;
+  width: 20rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+// our_usp
+.muver_sub_div {
+  text-align: center;
+  img {
+    @include bg_img;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 7px solid $g;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 21px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $g;
+  }
+}
+// our_usp_ end

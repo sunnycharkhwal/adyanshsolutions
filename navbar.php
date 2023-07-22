@@ -54,17 +54,20 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'muver.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
+                                              href="muver.php">
                                               <span>Muver</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'hauler.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
+                                              href="hauler.php">
                                               <span>Hauler</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'LFTea.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
+                                              href="LFTea.php">
                                               <span>LFTea</span>
                                           </a>
                                       </li>

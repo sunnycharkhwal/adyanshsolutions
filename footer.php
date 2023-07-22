@@ -75,19 +75,19 @@
                     <h5>Other Page</h5>
                     <ul>
                         <li>
-                            <a href="#!">
+                            <a href="about.php">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         About Us</span></p>
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="contat_us.php">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         Contact Us</span></p>
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="ev_chargers.php">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         EV-Chargers</span></p>
                             </a>
@@ -105,7 +105,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="privacy_policy.php">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         Privacy Policy
                                     </span></p>

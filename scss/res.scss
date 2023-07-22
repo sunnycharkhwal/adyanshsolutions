@@ -3,6 +3,24 @@
 @media (max-width: 320px) {
 }
 @media (max-width: 576px) {
+  .muver_sub_div {
+    h3 {
+      font-size: 13px;
+    }
+    img {
+      width: 8rem;
+      height: 8rem;
+      border: 4px solid #87c332;
+    }
+  }
+  .management_system_img_new {
+    height: 23rem;
+    width: 100%;
+  }
+  .management_system_img_new3 {
+    height: 6rem;
+    width: 14rem;
+  }
   .bg_div {
     height: 18rem;
   }
