@@ -907,6 +907,42 @@ a {
   width: 8rem !important;
 }
 
+.ev_list_btn {
+  font-weight: 700;
+  background: #8cc63f;
+  border-color: transparent !important;
+  color: white;
+}
+
+.accordion-button:focus {
+  border-color: #cad3df;
+  box-shadow: unset;
+}
+
+.ev_table_list .accordion-body {
+  background-color: #e7f1ff;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.ev_table_list table {
+  background-color: #fff;
+}
+.ev_table_list table thead tr {
+  background: black;
+  color: white;
+  text-transform: capitalize;
+}
+.ev_table_list .accordion-item {
+  margin-bottom: 10px;
+}
+.ev_table_list .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #e7f1ff;
+}
+.ev_table_list .accordion-collapse {
+  border-color: transparent;
+}
+
 .management_system_img {
   background-size: cover;
   background-repeat: no-repeat;
