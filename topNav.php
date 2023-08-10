@@ -4,7 +4,7 @@
          <div class="row">
              <div class="col-xxl-3 col-xl-3 col-lg-2">
                  <div class="top_nav_logo">
-                     <a href="index.php"><img src="img/logo.webp" alt="logo"></a>
+                     <a href="index.php"><img src="img/logo.png" alt="logo"></a>
                  </div>
              </div>
              <div class="col-xxl-9 col-xl-9 col-lg-10 d-flex align-items-center">
@@ -14,7 +14,7 @@
                          </li>
                          <li>
                              <p>Please Make a call</p>
-                             <a href="tel:++00 888.666.88">(+00)888.666.88</a>
+                             <a href="tel:+91 8980067898">+91 8980067898</a>
                          </li>
                      </ul>
                  </div>
@@ -24,7 +24,7 @@
                          </li>
                          <li>
                              <p>E-mail Address</p>
-                             <a href="mailto:grevoinfo@gmail.com">grevoinfo@gmail.com</a>
+                             <a href="mailto:adyansh.solutions@gmail.com">adyansh.solutions@gmail.com</a>
                          </li>
                      </ul>
                  </div>

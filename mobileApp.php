@@ -17,10 +17,10 @@
                     perspiciatis odit perferendis eos iure soluta consectetur veniam voluptas modi blanditiis vitae.
                     Deserunt quam numquam cum quo, vero sequi temporibus saepe similique mollitia.</p>
                 <div class="mobile_app_store_img_div">
-                    <a href="https://apps.apple.com/in/app/e-fill-efill-ev-charging/id1565499471" target="_new">
+                    <a href="#" target="_new">
                         <img src="img/m2.png" alt="store">
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.efill&pli=1" target="_new">
+                    <a href="#" target="_new">
                         <img src="img/m3.png" alt="store">
                     </a>
                 </div>

@@ -1,21 +1,21 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 <!-- all page top header -->
 <div class="top_header_all_page mb-5">
     <div class="top_header_all_page_img" style="background-image: url('img/evt.jpeg');"></div>
     <div class="top_header_all_page_inner">
         <div class="top_header_text_div">
-            <h3>LFTea
+            <h3>Electric 2-Wheelers
             </h3>
             <div class="top_header_text_div_inner">
                 <a href="index.php">index</a>
                 <span><i class="fas fa-angle-double-right"></i></span>
-                <p>LFTea
+                <p>Electric 2-Wheelers
                 </p>
             </div>
         </div>
     </div>
 </div>
-<section class="container mb-5">
+<!-- <section class="container mb-5">
     <div class="title_index_about title_index_about2">
         <p><i class="fas fa-circle" aria-hidden="true"></i> LFTea </p>
         <h3>
@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Our USPs -->
 <section class=" container mb-5  ">
     <div class="title_index_about title_index_about2">
@@ -95,4 +95,4 @@
     </div>
 </section>
 <!-- Our USPs -->
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>

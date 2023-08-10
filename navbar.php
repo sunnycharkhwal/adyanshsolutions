@@ -3,7 +3,7 @@
   <div class="d-lg-none">
       <div class="mobile_menu_div_top">
           <div class="row m-0">
-              <div class="col-6"><img class="logo_mobile" src="img/logo.webp" alt="logo"></div>
+              <div class="col-6"><img class="logo_mobile" src="img/logo.png" alt="logo"></div>
               <div class="col-6 mobile_menu_div ">
                   <i class="fas fa-bars" data-trigger="navbar_main"></i>
               </div>
@@ -21,16 +21,13 @@
                       <div class="container">
                           <ul class="navbar-nav">
                               <li>
-                                  <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'nav-link text-white' : 'nav-link'; ?>"
-                                      href="index.php">home </a>
+                                  <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'nav-link text-white' : 'nav-link'; ?>" href="index.php">home </a>
                               </li>
                               <li>
-                                  <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'nav-link text-white' : 'nav-link'; ?>"
-                                      href="about.php">about us </a>
+                                  <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'nav-link text-white' : 'nav-link'; ?>" href="about.php">about us </a>
                               </li>
                               <li>
-                                  <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'contat_us.php' ? 'nav-link text-white' : 'nav-link'; ?>"
-                                      href="contat_us.php">contact us</a>
+                                  <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'contat_us.php' ? 'nav-link text-white' : 'nav-link'; ?>" href="contat_us.php">contact us</a>
                               </li>
                               <li class="nav-item dropdown my_dropdown">
                                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Products
@@ -42,8 +39,7 @@
                                           </a>
                                       </li>
                                       <li>
-                                          <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
-                                              href="ev_chargers.php">
+                                          <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
                                               <span>EV-Chargers</span>
                                           </a>
                                       </li>
@@ -54,21 +50,19 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'muver.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
-                                              href="muver.php">
-                                              <span>Muver</span>
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'E-Rickshaws.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="E-Rickshaws.php">
+                                              <span>E-Rickshaws</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'hauler.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
-                                              href="hauler.php">
-                                              <span>Hauler</span>
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'E-Loaders.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="E-Loaders.php">
+                                              <span>E-Loaders</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'LFTea.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>"
-                                              href="LFTea.php">
-                                              <span>LFTea</span>
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'Electric.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="Electric.php">
+                                              <span>Electric 2-
+                                                  Wheelers</span>
                                           </a>
                                       </li>
                                   </ul>
@@ -79,7 +73,7 @@
                                   <ul class="dropdown-menu fade-up">
                                       <li>
                                           <a class="dropdown-item" href="index.php#ifm">
-                                              <span>Integrated Facility Management Services</span>
+                                              <span>Support Services</span>
                                           </a>
                                       </li>
                                       <li>
@@ -112,7 +106,7 @@
               </nav>
           </div>
           <div class="col-xxl-3 col-xl-3 col-lg-2 d-none d-xxl-block d-xl-block d-lg-block">
-              <a href="#" class="nav_contact_btn"> Get a quote</a>
+              <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
           </div>
       </div>
   </div>

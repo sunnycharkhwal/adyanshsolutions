@@ -1,7 +1,6 @@
 <?php
 //checking if recived a post request
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
     ob_start();
     require_once("email_template.php");
     $body = ob_get_contents();

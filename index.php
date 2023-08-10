@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 <!-- slider -->
 <div class="mb-5">
     <div class="owl-carousel owl-theme">
@@ -10,11 +10,11 @@
                     <p>Our purpose is to provide best quality charging solutions for your vehicles as we care
                         for you and our environment
                     </p>
-                    <a href="#" class="nav_contact_btn"> Get a quote</a>
+                    <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
                 </div>
             </div>
         </div>
-        <div class="item">
+        <!-- <div class="item">
             <div class="slider_my">
                 <img src="img/slider2.webp" alt="slider">
                 <div class="slider_text_div">
@@ -22,10 +22,10 @@
                     <p>Our purpose is to provide best quality charging solutions for your vehicles as we care
                         for you and our environment
                     </p>
-                    <a href="#" class="nav_contact_btn"> Get a quote</a>
+                    <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="item">
             <div class="slider_my">
                 <img src="img/slider3.webp" alt="slider">
@@ -35,7 +35,7 @@
                     <p>Our purpose is to provide best quality charging solutions for your vehicles as we care
                         for you and our environment
                     </p>
-                    <a href="#" class="nav_contact_btn"> Get a quote</a>
+                    <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                     <p>Our purpose is to provide best quality charging solutions for your vehicles as we care
                         for you and our environment
                     </p>
-                    <a href="#" class="nav_contact_btn"> Get a quote</a>
+                    <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
                 </div>
             </div>
         </div>
@@ -60,21 +60,36 @@
     <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
             <div class="title_index_about">
-                <p><i class="fas fa-circle"></i> About</p>
+                <p><i class="fas fa-circle"></i> about</p>
                 <h3>
-                    Why Choose Shiv Industrial Services?
+                    Who we are
                 </h3>
             </div>
             <div class="index_about_text_div">
-                <p>At Shiv Industrial Services, we aim to deliver smart, innovative, end-end solutions that can help
-                    your organisation grow profitability, improve productivity and happy work environment. We follow all
-                    statutory, regulatory and audit compliances enabling our customers to focus on their core business
-                    activities.</p>
-                <p>Over the past five years, Shiv Industrial Services has become a renowned name in the industry by
-                    providing quality services to some of the biggest Clients, including leading MNCs in the country. We
-                    offer our employees all facilities including state-of-the-art trainings leading to world class
-                    services customized as per customer requirements. We offer One-stop solution for all our customers.
-                </p>
+                <p>Adyansh Solutions (A Green Industry Business) is known for its sustainable and eco-
+                    friendly retailing that unionizes concern for the environment, profitability, and goodwill for the
+                    common good as its forefront.</p>
+            </div>
+            <div class="title_index_about">
+                <h3>
+                    Mission
+                </h3>
+            </div>
+            <div class="index_about_text_div">
+                <p>We are committed to a sustainable future and to improving the social, economic and
+                    environmental well-being of the community. We are dedicated to environmental improvements that
+                    foster a sustainable future and lead to social and economic improvements in the community we do
+                    business.</p>
+            </div>
+            <div class="title_index_about">
+                <h3>
+                    Vision:
+                </h3>
+            </div>
+            <div class="index_about_text_div">
+                <p>To be the leading environment friendly products and related services company. To provide
+                    customers of all segments of the society with reliable, professional and innovative solutions and
+                    services through friendly, excellent and convenient services.</p>
             </div>
         </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -85,8 +100,8 @@
 <!-- index about end -->
 <!-- index page btn -->
 <section class="container pb-5">
-    <div class="row g-2">
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+    <div class="row g-2 justify-content-center">
+        <!-- <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
             <a href="#ifm">
                 <div class="index_page_btn_div">
                     <img src="img/index2.png" alt="icon">
@@ -96,7 +111,7 @@
                         etc.</p>
                 </div>
             </a>
-        </div>
+        </div> -->
         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
             <a href="#it">
                 <div class="index_page_btn_div">
@@ -132,7 +147,7 @@
 </section>
 <!-- index page btn -->
 <!-- Integrated Facility Management Services -->
-<section class="mb-5 ifm_top_div" id="ifm">
+<!-- <section class="mb-5 ifm_top_div" id="ifm">
     <div class="container">
         <div class="title_index_about title_index_about2">
             <p><i class="fas fa-circle"></i> IFM</p>
@@ -264,9 +279,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Integrated Facility Management Services end -->
-<?php include 'mobileApp.php';?>
+<?php include 'mobileApp.php'; ?>
 <!-- IT And Non-IT Supplies -->
 <section class="container pb-5" id="it">
     <div class="title_index_about title_index_about2">
@@ -345,9 +360,8 @@
                                 Supply Chain Management
                             </h3>
                             <p>
-                                We Provide End-To-End Supply Chain Management Consultancy Including Logistics,
-                                Warehousing
-                                And Parcel Movements
+                                Associate with us for Supply Chain Management
+                                Consultancy to reduce costs on Logistics, Warehousing and Parcel Movements
                             </p>
                         </li>
                     </ul>
@@ -361,11 +375,11 @@
                         </li>
                         <li>
                             <h3>
-                                Procurement As A Service (PAAS)
+                                Procurement as a Service
                             </h3>
                             <p>
-                                We Provide Integrator Services To Manage Your Day-To-Day Procurement Activities Through
-                                Strong Back-End Professionals
+                                Partner with us as a Procurement Service Provider (PSP) and
+                                utilize our experience and skills in managing your tail-end spends / suppliers
                             </p>
                         </li>
                     </ul>
@@ -379,10 +393,11 @@
                         </li>
                         <li>
                             <h3>
-                                Finance & Audit Management
+                                Finance &amp; Audit Management
                             </h3>
                             <p>
-                                We Provide Consultancy Services To The Organizations On Finance & Audit Management
+                                Utilize our skills to support you and your organizations in
+                                doing end-to-end Finance and Audit Management
                             </p>
                         </li>
                     </ul>
@@ -396,11 +411,11 @@
                         </li>
                         <li>
                             <h3>
-                                HR Consultancy Services
+                                HR Consultancy
                             </h3>
                             <p>
-                                We Provide HR Consultancy Services To Businesses On Management Of All Statutory
-                                Regulations And Also Deal In Providing Blue & White Collar Staffing Solutions
+                                Partner with us in managing all Legal and Statutory Regulations through
+                                our expert Legal and HR team
                             </p>
                         </li>
                     </ul>
@@ -414,11 +429,47 @@
                         </li>
                         <li>
                             <h3>
-                                Liaisioning Activities
+                                Liaisioning activities
                             </h3>
                             <p>
-                                We Offer All Type Of Liaisioning Activities Through Dedicated Teams To All Our Clients
-                                By Acting As A Cushion Between Clients And Related Officials.
+                                Our offering includes all type of Liaisioning activities through our
+                                strong network support in various government and non-government entities.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <ul class="pcs_inner_div">
+                        <li>
+                            <div class="pcs_inner_img_div">
+                                <img src="img/pcs6.png" alt="icon">
+                            </div>
+                        </li>
+                        <li>
+                            <h3>
+                                Energy Management and Audit
+                            </h3>
+                            <p>
+                                Become our partner and get ready with saving ideas for
+                                your organization through our unique energy saving initiatives accepted globally.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <ul class="pcs_inner_div">
+                        <li>
+                            <div class="pcs_inner_img_div">
+                                <img src="img/pcs6.png" alt="icon">
+                            </div>
+                        </li>
+                        <li>
+                            <h3>
+                                E-Mobility Consulting
+                            </h3>
+                            <p>
+                                Strategic Advice, Policies &amp; Framework, Design &amp; Build model,
+                                Project Management (Supply &amp; Installation)
                             </p>
                         </li>
                     </ul>
@@ -439,29 +490,31 @@
     <div class="row g-3 justify-content-center">
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="electric_vehicle">
-                <h3>Charging Solution</h3>
-                <p>Charging solution for multi unit dwellers helps in the shift from conventional to Electric Vehicles.
-                    We provide convertor kits & electric vehicle charging station.</p>
+                <h3>IT and non-IT Supplies</h3>
+                <p>Choose from wide variety of IT, Industrial Spares (MRO), Stationery,
+                    Housekeeping, Corporate gifts and many more.</p>
                 <div class="electric_vehicle_img" style="background-image: url('img/ev1.jpg');"></div>
             </div>
         </div>
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="electric_vehicle">
-                <h3>E-Mobility</h3>
-                <p>E-Mobility comes with zero tailpipe emissions of air pollutants & lower noise, changing the face of
-                    public transportation with our smart & energy efficient EVs.</p>
+                <h3>Electric Vehicle Chargers:</h3>
+                <p>Choose from wide range of EV Chargers (DC / AC / GB-T) that best
+                    suits your business and personal needs – General Chargers to be uploaded and not E-fill
+                    specific..</p>
                 <div class="electric_vehicle_img" style="background-image: url('img/ev2.jpg');"></div>
             </div>
         </div>
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="electric_vehicle">
-                <h3>Smart IOT</h3>
-                <p>Charging solution for multi unit dwellers helps in the shift from conventional to Electric Vehicles.
-                    We provide convertor kits & electric vehicle charging station.</p>
+                <h3>Electric Vehicles (E-Rickshaws and E-Loaders)</h3>
+                <p>Choose the best eco-friendly electric
+                    rickshaws and Loaders and proudly become part of our sustainability initiatives in line with
+                    Government of India initiatives.</p>
                 <div class="electric_vehicle_img" style="background-image: url('img/ev3.jpg');"></div>
             </div>
         </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+        <!-- <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="electric_vehicle">
                 <h3>Vehicle Telematics</h3>
                 <p>E-Fill’s telematics solution helps the fleet owners & logistic companies in real time tracking of
@@ -476,8 +529,8 @@
                     We provide convertor kits & electric vehicle charging station.</p>
                 <div class="electric_vehicle_img" style="background-image: url('img/ev5.jpg');"></div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- Electric Vehicle Charging Solution end -->
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>

@@ -3,6 +3,9 @@
 @media (max-width: 320px) {
 }
 @media (max-width: 576px) {
+  .electric_vehicle {
+    height: auto;
+  }
   .muver_sub_div {
     h3 {
       font-size: 13px;
@@ -483,6 +486,11 @@
   }
 }
 @media (min-width: 1024px) {
+  .top_nav_itms {
+    a {
+      font-size: 12px;
+    }
+  }
   .photo_list_div img {
     width: 88%;
     height: 40rem;
@@ -645,6 +653,11 @@
   }
 }
 @media (min-width: 1440px) {
+  .top_nav_itms {
+    a {
+      font-size: 15px;
+    }
+  }
   .add_section img {
     width: 20rem;
     height: 26rem;

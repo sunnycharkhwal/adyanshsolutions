@@ -33,7 +33,7 @@
         <div class="row g-4">
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                 <div class="footer_text_div">
-                    <img src="img/logof.png" alt="footer logo">
+                    <img src="img/logo.png" alt="footer logo">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur ea inventore. Alias possimus
                         harum, repudiandae inventore accusamus laborum, illum recusandae incidunt natus ex veniam nobis
                         ab magnam reprehenderit enim?</p>
@@ -44,25 +44,15 @@
                     <h5>Quick Contact</h5>
                     <ul>
                         <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>+91 8980022288</span></p>
+                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>+91 8980067898</span></p>
                         </li>
+
                         <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>+91 8980022299</span></p>
-                        </li>
-                        <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>shivindservices@outlook.com</span>
+                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>adyansh.solutions@gmail.com</span>
                             </p>
                         </li>
                         <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>Sales_gujarat@efill.co.in </span>
-                            </p>
-                        </li>
-                        <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>efevgujarat@gmail.com</span>
-                            </p>
-                        </li>
-                        <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>Shiv Industrial Services
+                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>Adyansh Solutions
                                     A/20, Kashi Vishweshwar Society Jetalpur Road, Alkapuri,
                                     Vadodara – 390007 (Gujarat)</span>
                             </p>
@@ -153,8 +143,7 @@
     </div>
 </footer>
 <!-- Footer -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
 
 <script src="script.js"></script>
