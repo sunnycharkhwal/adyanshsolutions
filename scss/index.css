@@ -1129,4 +1129,25 @@ a {
   font-weight: 600;
   letter-spacing: 1px;
   color: #8cc63f;
+}
+
+.privcy_div p {
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: 400;
+  color: #666;
+  text-align: justify;
+}
+
+.section_title_div {
+  text-align: center;
+}
+.section_title_div h3 {
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.section_title_div h3 span {
+  color: #8cc63f;
 }/*# sourceMappingURL=index.css.map */

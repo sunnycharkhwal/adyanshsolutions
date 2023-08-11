@@ -1064,3 +1064,26 @@ a {
   }
 }
 // our_usp_ end
+// privcy
+.privcy_div {
+  p {
+    font-size: 15px;
+    margin-bottom: 6px;
+    font-weight: 400;
+    color: #666;
+    text-align: justify;
+  }
+}
+.section_title_div {
+  text-align: center;
+  h3 {
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    span {
+      color: $g;
+    }
+  }
+}
+// privcy end
