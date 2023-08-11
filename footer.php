@@ -1,32 +1,39 @@
-<section class="container pb-5">
-    <div class="title_index_about title_index_about2">
-        <!-- <p><i class="fas fa-circle"></i> IFM</p> -->
+<!-- footer logo  -->
+<section class=" mb-5 footer_logo">
+    <div class="title_index_about title_index_about2 mb-5">
+        <p><i class="fas fa-circle" aria-hidden="true"></i> Partners</p>
         <h3>
             Recognized By
         </h3>
     </div>
-    <div class="recognized_img_div">
-        <img src="img/r1.webp" alt="icon">
-        <img src="img/r2.webp" alt="icon">
-        <img src="img/r3.webp" alt="icon">
-        <img src="img/r4.webp" alt="icon">
-        <img src="img/r5.webp" alt="icon">
+    <div class="owl-carouself owl-carousel owl-theme recognized_img_div">
+        <div class="item">
+            <img src="img/r1.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/r2.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/r3.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/r4.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/r5.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/g1.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/g2.webp" alt="icon">
+        </div>
+        <div class="item">
+            <img src="img/g4.webp" alt="icon">
+        </div>
     </div>
 </section>
-<section class="container pb-5">
-    <div class="title_index_about title_index_about2">
-        <!-- <p><i class="fas fa-circle"></i> IFM</p> -->
-        <h3>
-            In Synergy With Government Initiatives
-        </h3>
-    </div>
-    <div class="recognized_img_div2">
-        <img src="img/g1.webp" alt="icon">
-        <img src="img/g2.webp" alt="icon">
-        <img src="img/g3.webp" alt="icon">
-        <img src="img/g4.webp" alt="icon">
-    </div>
-</section>
+<!-- footer logo end  -->
 <!-- Footer -->
 <footer class="footer_top_div ">
     <div class="container-fluid p-5 pb-0">

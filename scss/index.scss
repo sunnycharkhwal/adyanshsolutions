@@ -555,7 +555,12 @@ a {
   align-items: center;
   margin-top: 3rem;
   img {
-    width: 12rem;
+    width: 60% !important;
+  }
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .recognized_img_div2 {
@@ -888,6 +893,11 @@ a {
         background: black;
         color: white;
         text-transform: capitalize;
+      }
+    }
+    tbody {
+      td {
+        vertical-align: middle;
       }
     }
   }

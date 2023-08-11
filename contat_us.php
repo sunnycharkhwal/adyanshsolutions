@@ -1,4 +1,9 @@
 <?php include 'header.php'; ?>
+<style>
+    .footer_logo {
+        display: none;
+    }
+</style>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
 <!-- all page top header -->
@@ -146,4 +151,5 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.2326742124783!2d73.1689721149468!3d22.307038498287238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9fc916af707%3A0xd48af8a3c6bfda69!2sShiv%20Industrial%20Services!5e0!3m2!1sen!2sin!4v1679726329776!5m2!1sen!2sin" class="map_my" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!-- map -->
 <script src="contactForm/form.js"></script>
+
 <?php include 'footer.php'; ?>

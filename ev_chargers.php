@@ -1,4 +1,69 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+$data1 = [
+    ['parameter' => 'Input', 'result' => '1-PHASE 3.3kW 230 V 20 Amp'],
+    ['parameter' => 'Output', 'result' => '3.3 KW 16 AMP (230V)'],
+    ['parameter' => 'Wires', 'result' => '3 wires (L, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196-2 Type 2'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 55 degrees'],
+    ['parameter' => '# outputs', 'result' => 'ONE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'Not Applicable'],
+    ['parameter' => 'Updates', 'result' => 'No Updates'],
+    ['parameter' => 'Charging Interface', 'result' => 'Type 2 Gun'],
+    ['parameter' => 'Display', 'result' => 'LED Indicator - No Display'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired'],
+    ['parameter' => 'IP Rating', 'result' => 'IP54 ingress protection'],
+    ['parameter' => 'Mounting', 'result' => 'Wall Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Natural Cooling'],
+    ['parameter' => 'Push Button', 'result' => 'On/ Off Switch '],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'As per Standards '],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '130 X 110 X 160 mm (Box)'],
+    ['parameter' => 'Weight', 'result' => '3.5 Kg'],
+    ['parameter' => 'Cable Length', 'result' => '3 Mtr / 5 Mtr (Optional)'],
+    ['parameter' => 'Safety parameter', 'result' => ''],
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '6 Months'],
+    ['parameter' => 'Product Certificate', 'result' => 'No Certification'],
+];
+$data2 = [
+    ['parameter' => 'Input', 'result' => ''],
+    ['parameter' => 'Output', 'result' => ''],
+    ['parameter' => 'Wires', 'result' => ''],
+    ['parameter' => 'Output Connectors', 'result' => ''],
+    ['parameter' => 'Ambient Temperatire', 'result' => ''],
+    ['parameter' => '# outputs', 'result' => ''],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => ''],
+    ['parameter' => 'Updates', 'result' => ''],
+    ['parameter' => 'Charging Interface', 'result' => ''],
+    ['parameter' => 'Display', 'result' => ''],
+    ['parameter' => 'Connectivity', 'result' => ''],
+    ['parameter' => 'IP Rating', 'result' => ''],
+    ['parameter' => 'Mounting', 'result' => ''],
+    ['parameter' => 'Cooling Method', 'result' => ''],
+    ['parameter' => 'Push Button', 'result' => ''],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => ''],
+    ['parameter' => 'user Authentication', 'result' => ''],
+    ['parameter' => 'Dimension', 'result' => ''],
+    ['parameter' => 'Weight', 'result' => ''],
+    ['parameter' => 'Cable Length', 'result' => ''],
+    ['parameter' => 'Safety parameter', 'result' => ''],
+    ['parameter' => 'Over Current', 'result' => ''],
+    ['parameter' => 'High Voltage', 'result' => ''],
+    ['parameter' => 'Residual Current', 'result' => ''],
+    ['parameter' => 'Surge Protection', 'result' => ''],
+    ['parameter' => 'Leakage Protection', 'result' => ''],
+    ['parameter' => 'Short Circuit', 'result' => ''],
+    ['parameter' => 'Over Temperature', 'result' => ''],
+    ['parameter' => 'Warranty', 'result' => ''],
+    ['parameter' => 'Product Certificate', 'result' => ''],
+];
+?>
 <!-- all page top header -->
 <div class="top_header_all_page mb-5">
     <div class="top_header_all_page_img" style="background-image: url('img/evt.jpeg');"></div>
@@ -49,16 +114,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>demo</td>
-                                    <td>demo</td>
-
-                                </tr>
-                                <tr>
-                                    <td>demo</td>
-                                    <td>demo</td>
-
-                                </tr>
+                                <?php foreach ($data1 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
                             </tbody>
                         </table>
                     </div>
@@ -82,16 +143,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>demo</td>
-                                    <td>demo</td>
-
-                                </tr>
-                                <tr>
-                                    <td>demo</td>
-                                    <td>demo</td>
-
-                                </tr>
+                                <?php foreach ($data2 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
                             </tbody>
                         </table>
                     </div>

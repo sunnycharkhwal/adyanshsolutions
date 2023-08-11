@@ -582,7 +582,12 @@ a {
   margin-top: 3rem;
 }
 .recognized_img_div img {
-  width: 12rem;
+  width: 60% !important;
+}
+.recognized_img_div .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .recognized_img_div2 {
@@ -934,6 +939,9 @@ a {
   background: black;
   color: white;
   text-transform: capitalize;
+}
+.ev_table_list table tbody td {
+  vertical-align: middle;
 }
 .ev_table_list .accordion-item {
   margin-bottom: 10px;

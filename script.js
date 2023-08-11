@@ -89,3 +89,29 @@ $(".owl-new").owlCarousel({
   },
 });
 //
+$(".owl-carouself").owlCarousel({
+  nav: false,
+  loop: true,
+  margin: 0,
+  dots: false,
+  autoplay: true,
+  autoplaySpeed: 2200,
+  autoplayTimeout: 2200,
+  autoplayHoverPause: true,
+  slideTransition: "linear",
+  // autoWidth: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    576: {
+      items: 2,
+    },
+    768: {
+      items: 3,
+    },
+    992: {
+      items: 4,
+    },
+  },
+});
