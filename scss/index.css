@@ -915,6 +915,15 @@ a {
   width: 8rem !important;
 }
 
+.ev_inner_row {
+  background: black;
+}
+.ev_inner_row td {
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
 .ev_list_btn {
   font-weight: 700;
   background: #8cc63f;
