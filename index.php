@@ -83,7 +83,7 @@
             </div>
             <div class="title_index_about">
                 <h3>
-                    Vision:
+                    Vision
                 </h3>
             </div>
             <div class="index_about_text_div">
