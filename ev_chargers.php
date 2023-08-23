@@ -660,26 +660,26 @@ $data20a = [
     ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
 ];
 $data21 = [
-    ['parameter' => 'Input', 'result' => ''],
-    ['parameter' => 'Output', 'result' => ''],
-    ['parameter' => 'Wires', 'result' => ''],
-    ['parameter' => 'Output Connectors', 'result' => ''],
-    ['parameter' => 'Ambient Temperatire', 'result' => ''],
-    ['parameter' => '# outputs', 'result' => ''],
-    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => ''],
-    ['parameter' => 'Updates', 'result' => ''],
-    ['parameter' => 'Charging Interface', 'result' => ''],
-    ['parameter' => 'Display', 'result' => ''],
-    ['parameter' => 'Connectivity', 'result' => ''],
-    ['parameter' => 'IP Rating', 'result' => ''],
-    ['parameter' => 'Mounting', 'result' => ''],
-    ['parameter' => 'Cooling Method', 'result' => ''],
-    ['parameter' => 'Push Button', 'result' => ''],
-    ['parameter' => 'Communication between charger & vehicle', 'result' => ''],
-    ['parameter' => 'user Authentication', 'result' => ''],
-    ['parameter' => 'Dimension', 'result' => ''],
-    ['parameter' => 'Weight', 'result' => ''],
-    ['parameter' => 'Cable Length', 'result' => ''],
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '90 KW 250 Amp (200-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '9.1" Touches Screen With Shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*557'],
+    ['parameter' => 'Weight', 'result' => '320kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
 ];
 $data21a = [
     ['parameter' => 'Over Current', 'result' => 'YES'],
@@ -690,7 +690,502 @@ $data21a = [
     ['parameter' => 'Short Circuit', 'result' => 'YES'],
     ['parameter' => 'Over Temperature', 'result' => 'YES'],
     ['parameter' => 'Warranty', 'result' => '1 Year'],
-    ['parameter' => 'Product Certificate', 'result' => 'No Certification'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data22 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '120 KW 250 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " touch screen with shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*557'],
+    ['parameter' => 'Weight', 'result' => '320kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data22a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data23 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '150 KW 300 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " touch screen with shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*557'],
+    ['parameter' => 'Weight', 'result' => '320kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data23a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data24 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '180 KW 350 Amp (200-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '9.1" Touches Screen With Shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*557'],
+    ['parameter' => 'Weight', 'result' => '320kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data24a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data25 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '240 KW 250 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " touch screen with shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*558'],
+    ['parameter' => 'Weight', 'result' => '450kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 +E19:P22Mtr'],
+];
+$data25a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data26 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '"2*30kW@150A + 22kW@32A Type 2 22 KW AC 32-63 Amp (380-440V AC) CHAdeMO 30 KW 150 Amp (150-1000V DC) CCS 2 30 KW 150 Amp (200-1000 V DC)"'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'THREE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " touch screen with shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'CAN Based Communication as per AIS 138'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*558'],
+    ['parameter' => 'Weight', 'result' => '450kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data26a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data27 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '"2*60kW@250A + 22kW@32A Type 2 22 KW AC 32-63 Amp (380-440V AC) CCS 2 2*60 KW 250 Amp (200-1000 V DC)"'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196, 61851, SAE J 1772, CHAdeMO'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'THREE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '9.1" Touches Screen With Shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'CAN Based Communication as per AIS 138'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '750*1600*558'],
+    ['parameter' => 'Weight', 'result' => '450kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data27a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data28 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '15 KW 200 Amp (35-100 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'GB/T 20234.3 executive standard'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'ONE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'GB/T female connector'],
+    ['parameter' => 'Display', 'result' => '7 " touch screen with shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'CAN Based Communication as per AIS 138'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1600*690*850'],
+    ['parameter' => 'Weight', 'result' => '200kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data28a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data29 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '30 KW 250 Amp (35-100 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'GB/T 20234.3 executive standard'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-25 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'GB/T female connector'],
+    ['parameter' => 'Display', 'result' => '7 " touch screen with shell'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'CAN Based Communication as per AIS 138'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1600*690*851'],
+    ['parameter' => 'Weight', 'result' => '220kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data29a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data30 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '30 KW 80 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'ONE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Wall Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '650*630*380'],
+    ['parameter' => 'Weight', 'result' => '80kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data30a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data31 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '30 KW 80 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1800*765*400'],
+    ['parameter' => 'Weight', 'result' => '270 kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data31a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data32 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '120 KW 250 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1800*765*400'],
+    ['parameter' => 'Weight', 'result' => '270 kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data32a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data33 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '180 KW 350 Amp (200-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1800*765*400'],
+    ['parameter' => 'Weight', 'result' => '270 kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data33a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data34 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '240 KW 250 Amp (150-1000 V DC)'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'TWO'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1800*765*400'],
+    ['parameter' => 'Weight', 'result' => '270 kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data34a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data35 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '"2*30kW@150A + 22kW@32A Type 2 22 KW AC 32-63 Amp (380-440V AC) CHAdeMO 30 KW 150 Amp (150-1000V DC) CCS 2 30 KW 150 Amp (200-1000 V DC)"'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2 * 2 PLUS IEC 62196 Type 2*1'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'THREE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1800*765*400'],
+    ['parameter' => 'Weight', 'result' => '270 kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data35a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
+];
+$data36 = [
+    ['parameter' => 'Input', 'result' => '3-Phase 5-wire AC system (380 - 440 V)'],
+    ['parameter' => 'Output', 'result' => '"2*60kW@250A + 22kW@32A Type 2 22 KW AC 32-63 Amp (380-440V AC) CCS 2 2*60 KW 250 Amp (200-1000 V DC)"'],
+    ['parameter' => 'Wires', 'result' => '5 Wires (L1, L2, L3, N, PE)'],
+    ['parameter' => 'Output Connectors', 'result' => 'IEC 62196 CCS 2 * 2 PLUS IEC 62196 Type 2*1'],
+    ['parameter' => 'Ambient Temperatire', 'result' => '-20 degree to 75 degrees'],
+    ['parameter' => '# outputs', 'result' => 'THREE'],
+    ['parameter' => 'Firmware (between EVSE & CMS)', 'result' => 'OCCP v.1.6 or above (ethernet / GSM / Wireless)'],
+    ['parameter' => 'Updates', 'result' => 'Through remote connection upto 2.0 J'],
+    ['parameter' => 'Charging Interface', 'result' => 'CCS-2 female connector'],
+    ['parameter' => 'Display', 'result' => '7 " TFT LCD'],
+    ['parameter' => 'Connectivity', 'result' => 'Wired/4G'],
+    ['parameter' => 'IP Rating', 'result' => 'IP55 ingress protection / IK 10'],
+    ['parameter' => 'Mounting', 'result' => 'Floor Mounting'],
+    ['parameter' => 'Cooling Method', 'result' => 'Air Forced Cooled'],
+    ['parameter' => 'Push Button', 'result' => 'yes'],
+    ['parameter' => 'Communication between charger & vehicle', 'result' => 'PLC Based Communication'],
+    ['parameter' => 'user Authentication', 'result' => 'Mobile / QR Code / RFID / Password login'],
+    ['parameter' => 'Dimension', 'result' => '1800*765*400'],
+    ['parameter' => 'Weight', 'result' => '270 kg'],
+    ['parameter' => 'Cable Length', 'result' => '5 Mtr'],
+];
+$data36a = [
+    ['parameter' => 'Over Current', 'result' => 'YES'],
+    ['parameter' => 'High Voltage', 'result' => 'YES'],
+    ['parameter' => 'Residual Current', 'result' => 'YES'],
+    ['parameter' => 'Surge Protection', 'result' => 'YES'],
+    ['parameter' => 'Leakage Protection', 'result' => 'YES'],
+    ['parameter' => 'Short Circuit', 'result' => 'YES'],
+    ['parameter' => 'Over Temperature', 'result' => 'YES'],
+    ['parameter' => 'Warranty', 'result' => '1 Year'],
+    ['parameter' => 'Product Certificate', 'result' => 'CE Certificate, ISO 9001 2015, ISO 14001 2015.'],
 ];
 ?>
 <!-- all page top header -->
@@ -1526,6 +2021,646 @@ $data21a = [
             </div>
         </div>
         <!-- list 20 end -->
+        <!-- list 21 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading21">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse21" aria-expanded="false" aria-controls="panelsStayOpen-collapse21">
+                    90 KW DC CCS2 - 2G (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse21" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading21">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data21 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data21a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 21 end -->
+        <!-- list 22 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading22">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse22" aria-expanded="false" aria-controls="panelsStayOpen-collapse22">
+                    120 KW DC CCS2 - 2G (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse22" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading22">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data22 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data22a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 22 end -->
+        <!-- list 23 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading23">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse23" aria-expanded="false" aria-controls="panelsStayOpen-collapse23">
+                    150 KW DC CCS2 - 2G (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse23" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading23">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data23 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data23a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 23 end -->
+        <!-- list 24 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading24">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse24" aria-expanded="false" aria-controls="panelsStayOpen-collapse24">
+                    180 KW DC CCS2 - 2G (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse24" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading24">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data24 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data24a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 24 end -->
+        <!-- list 25 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading25">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse25" aria-expanded="false" aria-controls="panelsStayOpen-collapse25">
+                    240 KW DC CCS2 - 2G (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse25" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading25">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data25 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data25a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 25 end -->
+        <!-- list 26 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading26">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse26" aria-expanded="false" aria-controls="panelsStayOpen-collapse26">
+                    60 + 22 KW ADC CCS2 + Chademo + Type 2 - 3G (Guns # 3)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse26" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading26">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data26 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data26a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 26 end -->
+        <!-- list 27 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading27">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse27" aria-expanded="false" aria-controls="panelsStayOpen-collapse27">
+                    120 + 22 KW ADC CCS2 +Chademo + Type 2- 3G (Guns # 3)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse27" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading27">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data27 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data27a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 27 end -->
+        <!-- list 28 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading28">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse28" aria-expanded="false" aria-controls="panelsStayOpen-collapse28">
+                    15 KW DC GB/T - Galaxy Series (Guns # 1)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse28" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading28">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data28 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data28a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 28 end -->
+        <!-- list 29 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading29">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse29" aria-expanded="false" aria-controls="panelsStayOpen-collapse29">
+                    30 KW DC GB/T - Galaxy Seriess (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse29" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading29">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data29 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data29a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 29 end -->
+        <!-- list 30 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading30">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse30" aria-expanded="false" aria-controls="panelsStayOpen-collapse30">
+                    30 KW DC CCS2 - 1G - Galaxy Series (Guns # 1)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse30" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading30">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data30 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data30a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 30 end -->
+        <!-- list 31 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading31">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse31" aria-expanded="false" aria-controls="panelsStayOpen-collapse31">
+                    60 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse31" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading31">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data31 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data31a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 31 end -->
+        <!-- list 32 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading32">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse32" aria-expanded="false" aria-controls="panelsStayOpen-collapse32">
+                    120 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse32" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading32">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data32 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data32a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 32 end -->
+        <!-- list 33 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading33">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse33" aria-expanded="false" aria-controls="panelsStayOpen-collapse33">
+                    180 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse33" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading33">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data33 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data33a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 33 end -->
+        <!-- list 34 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading34">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse34" aria-expanded="false" aria-controls="panelsStayOpen-collapse34">
+                    240 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse34" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading34">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data34 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data34a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 34 end -->
+        <!-- list 35 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading35">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse35" aria-expanded="false" aria-controls="panelsStayOpen-collapse35">
+                    60 + 22 KW ADC CCS2 + Chademo + Type 2 - 3G - Galaxy Series (Guns # 3)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse35" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading35">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data35 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data35a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 35 end -->
+        <!-- list 36 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading36">
+                <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse36" aria-expanded="false" aria-controls="panelsStayOpen-collapse36">
+                    120 + 22 KW ADC CCS2 +Chademo + Type 2- 3G - Galaxy Series (Guns # 3)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapse36" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading36">
+                <div class="accordion-body">
+                    <div>
+                        <table class="table table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($data36 as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                <tr class="ev_inner_row">
+                                    <td colspan="2">Safety parameter</td>
+                                </tr>
+                                <?php foreach ($data36a as $row) : ?>
+                                    <tr>
+                                        <td><?= $row['parameter'] ?></td>
+                                        <td><?= $row['result'] ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list 36 end -->
     </div>
 </section>
 <!-- list end -->
