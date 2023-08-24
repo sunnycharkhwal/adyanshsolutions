@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <!-- all page top header -->
 <div class="top_header_all_page mb-5">
-    <div class="top_header_all_page_img" style="background-image: url('img/evt.jpeg');"></div>
+    <div class="top_header_all_page_img" style="background-image: url('img/evt.webp');"></div>
     <div class="top_header_all_page_inner">
         <div class="top_header_text_div">
             <h3>about us</h3>
@@ -18,7 +18,7 @@
 <!--  about -->
 <section class="container pb-5">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12" data-aos="zoom-in" data-aos-duration="2000">
             <div class="title_index_about title_index_about2">
                 <!-- <p><i class="fas fa-circle"></i> E-Fill </p> -->
                 <h3>
@@ -35,7 +35,7 @@
 </section>
 <section class="container pb-5">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12" data-aos="zoom-in" data-aos-duration="2000">
             <div class="title_index_about title_index_about2">
                 <!-- <p><i class="fas fa-circle"></i>About</p> -->
                 <h3>
@@ -54,7 +54,7 @@
 </section>
 <section class="container pb-5">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12" data-aos="zoom-in" data-aos-duration="2000">
             <div class="title_index_about title_index_about2">
                 <!-- <p><i class="fas fa-circle"></i>About</p> -->
                 <h3>

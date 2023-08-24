@@ -1190,7 +1190,7 @@ $data36a = [
 ?>
 <!-- all page top header -->
 <div class="top_header_all_page mb-5">
-    <div class="top_header_all_page_img" style="background-image: url('img/evt.jpeg');"></div>
+    <div class="top_header_all_page_img" style="background-image: url('img/evt.webp');"></div>
     <div class="top_header_all_page_inner">
         <div class="top_header_text_div">
             <h3>EV Chargers</h3>
@@ -1222,7 +1222,7 @@ $data36a = [
     </div>
     <div class="accordion ev_table_list mt-4" id="accordionPanelsStayOpenExample">
         <!-- list 1 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo1">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo1" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo1">
                     3.3 KW Portable Type 2 (Guns # 1)
@@ -1262,7 +1262,7 @@ $data36a = [
         </div>
         <!-- list 1 end -->
         <!-- list 2 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                     7.4 KW Portable Type 2 (Guns # 1)
@@ -1302,7 +1302,7 @@ $data36a = [
         </div>
         <!-- list 2 end -->
         <!-- list 3 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading3">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
                     22 KW Portable Type 2 (Guns # 1)
@@ -1342,7 +1342,7 @@ $data36a = [
         </div>
         <!-- list 3 end -->
         <!-- list 4 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading3">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
                     3.3 KW AC Type 2 (Guns # 1)
@@ -1382,7 +1382,7 @@ $data36a = [
         </div>
         <!-- list 4 end -->
         <!-- list 5 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading5">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
                     7.4 KW AC Type 2 (Guns # 1)
@@ -1422,7 +1422,7 @@ $data36a = [
         </div>
         <!-- list 5 end -->
         <!-- list 6 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading6">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
                     7.4 KW AC Type 2 with LCD (Guns # 1)
@@ -1462,7 +1462,7 @@ $data36a = [
         </div>
         <!-- list 6 end -->
         <!-- list 7 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading7">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
                     10 KW AC Type 2 (Guns # 3)
@@ -1502,7 +1502,7 @@ $data36a = [
         </div>
         <!-- list 7 end -->
         <!-- list 8 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading8">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse8" aria-expanded="false" aria-controls="panelsStayOpen-collapse8">
                     11 KW AC Type 2 (Guns # 1)
@@ -1542,7 +1542,7 @@ $data36a = [
         </div>
         <!-- list 8 end -->
         <!-- list 9 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading9">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse9" aria-expanded="false" aria-controls="panelsStayOpen-collapse9">
                     11 KW AC Type 2 (Guns # 1)
@@ -1582,7 +1582,7 @@ $data36a = [
         </div>
         <!-- list 9 end -->
         <!-- list 10 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading10">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse10" aria-expanded="false" aria-controls="panelsStayOpen-collapse10">
                     15 KW AC Type 2 - 2G (Guns # 2)
@@ -1622,7 +1622,7 @@ $data36a = [
         </div>
         <!-- list 10 end -->
         <!-- list 11 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading11">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse11" aria-expanded="false" aria-controls="panelsStayOpen-collapse11">
                     15 KW AC Type 2 - 3G (Guns # 3)
@@ -1662,7 +1662,7 @@ $data36a = [
         </div>
         <!-- list 11 end -->
         <!-- list 12 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading12">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse12" aria-expanded="false" aria-controls="panelsStayOpen-collapse12">
                     15 KW DC CCS 2 (Guns # 2)
@@ -1702,7 +1702,7 @@ $data36a = [
         </div>
         <!-- list 12 end -->
         <!-- list 13 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading13">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse13" aria-expanded="false" aria-controls="panelsStayOpen-collapse13">
                     20 KW DC CCS2 (Guns # 1)
@@ -1742,7 +1742,7 @@ $data36a = [
         </div>
         <!-- list 13 end -->
         <!-- list 14 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading14">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse14" aria-expanded="false" aria-controls="panelsStayOpen-collapse14">
                     22 KW AC Type 2 (Guns # 1)
@@ -1782,7 +1782,7 @@ $data36a = [
         </div>
         <!-- list 14 end -->
         <!-- list 15 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading15">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse15" aria-expanded="false" aria-controls="panelsStayOpen-collapse15">
                     43 KW AC Type 2 (Guns # 2)
@@ -1822,7 +1822,7 @@ $data36a = [
         </div>
         <!-- list 15 end -->
         <!-- list 16 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading16">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse16" aria-expanded="false" aria-controls="panelsStayOpen-collapse16">
                     30 KW DC CCS2 (Guns # 1)
@@ -1862,7 +1862,7 @@ $data36a = [
         </div>
         <!-- list 16 end -->
         <!-- list 17 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading17">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse17" aria-expanded="false" aria-controls="panelsStayOpen-collapse17">
                     40 KW DC CCS2 (Guns # 1)
@@ -1902,7 +1902,7 @@ $data36a = [
         </div>
         <!-- list 17 end -->
         <!-- list 18 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading18">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse18" aria-expanded="false" aria-controls="panelsStayOpen-collapse18">
                     40 KW DC CCS2 - 2G (Guns # 2)
@@ -1942,7 +1942,7 @@ $data36a = [
         </div>
         <!-- list 18 end -->
         <!-- list 19 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading19">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse19" aria-expanded="false" aria-controls="panelsStayOpen-collapse19">
                     60 KW DC CCS2 (Guns # 1)
@@ -1982,7 +1982,7 @@ $data36a = [
         </div>
         <!-- list 19 end -->
         <!-- list 20 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading20">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse20" aria-expanded="false" aria-controls="panelsStayOpen-collapse20">
                     60 KW DC CCS2 - 2G (Guns # 1)
@@ -2022,7 +2022,7 @@ $data36a = [
         </div>
         <!-- list 20 end -->
         <!-- list 21 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading21">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse21" aria-expanded="false" aria-controls="panelsStayOpen-collapse21">
                     90 KW DC CCS2 - 2G (Guns # 2)
@@ -2062,7 +2062,7 @@ $data36a = [
         </div>
         <!-- list 21 end -->
         <!-- list 22 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading22">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse22" aria-expanded="false" aria-controls="panelsStayOpen-collapse22">
                     120 KW DC CCS2 - 2G (Guns # 2)
@@ -2102,7 +2102,7 @@ $data36a = [
         </div>
         <!-- list 22 end -->
         <!-- list 23 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading23">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse23" aria-expanded="false" aria-controls="panelsStayOpen-collapse23">
                     150 KW DC CCS2 - 2G (Guns # 2)
@@ -2142,7 +2142,7 @@ $data36a = [
         </div>
         <!-- list 23 end -->
         <!-- list 24 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading24">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse24" aria-expanded="false" aria-controls="panelsStayOpen-collapse24">
                     180 KW DC CCS2 - 2G (Guns # 2)
@@ -2182,7 +2182,7 @@ $data36a = [
         </div>
         <!-- list 24 end -->
         <!-- list 25 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading25">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse25" aria-expanded="false" aria-controls="panelsStayOpen-collapse25">
                     240 KW DC CCS2 - 2G (Guns # 2)
@@ -2222,7 +2222,7 @@ $data36a = [
         </div>
         <!-- list 25 end -->
         <!-- list 26 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading26">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse26" aria-expanded="false" aria-controls="panelsStayOpen-collapse26">
                     60 + 22 KW ADC CCS2 + Chademo + Type 2 - 3G (Guns # 3)
@@ -2262,7 +2262,7 @@ $data36a = [
         </div>
         <!-- list 26 end -->
         <!-- list 27 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading27">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse27" aria-expanded="false" aria-controls="panelsStayOpen-collapse27">
                     120 + 22 KW ADC CCS2 +Chademo + Type 2- 3G (Guns # 3)
@@ -2302,7 +2302,7 @@ $data36a = [
         </div>
         <!-- list 27 end -->
         <!-- list 28 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading28">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse28" aria-expanded="false" aria-controls="panelsStayOpen-collapse28">
                     15 KW DC GB/T - Galaxy Series (Guns # 1)
@@ -2342,7 +2342,7 @@ $data36a = [
         </div>
         <!-- list 28 end -->
         <!-- list 29 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading29">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse29" aria-expanded="false" aria-controls="panelsStayOpen-collapse29">
                     30 KW DC GB/T - Galaxy Seriess (Guns # 2)
@@ -2382,7 +2382,7 @@ $data36a = [
         </div>
         <!-- list 29 end -->
         <!-- list 30 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading30">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse30" aria-expanded="false" aria-controls="panelsStayOpen-collapse30">
                     30 KW DC CCS2 - 1G - Galaxy Series (Guns # 1)
@@ -2422,7 +2422,7 @@ $data36a = [
         </div>
         <!-- list 30 end -->
         <!-- list 31 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading31">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse31" aria-expanded="false" aria-controls="panelsStayOpen-collapse31">
                     60 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
@@ -2462,7 +2462,7 @@ $data36a = [
         </div>
         <!-- list 31 end -->
         <!-- list 32 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading32">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse32" aria-expanded="false" aria-controls="panelsStayOpen-collapse32">
                     120 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
@@ -2502,7 +2502,7 @@ $data36a = [
         </div>
         <!-- list 32 end -->
         <!-- list 33 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading33">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse33" aria-expanded="false" aria-controls="panelsStayOpen-collapse33">
                     180 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
@@ -2542,7 +2542,7 @@ $data36a = [
         </div>
         <!-- list 33 end -->
         <!-- list 34 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading34">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse34" aria-expanded="false" aria-controls="panelsStayOpen-collapse34">
                     240 KW DC CCS2 - 2G - Galaxy Series (Guns # 2)
@@ -2582,7 +2582,7 @@ $data36a = [
         </div>
         <!-- list 34 end -->
         <!-- list 35 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading35">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse35" aria-expanded="false" aria-controls="panelsStayOpen-collapse35">
                     60 + 22 KW ADC CCS2 + Chademo + Type 2 - 3G - Galaxy Series (Guns # 3)
@@ -2622,7 +2622,7 @@ $data36a = [
         </div>
         <!-- list 35 end -->
         <!-- list 36 -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-heading36">
                 <button class="accordion-button collapsed ev_list_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse36" aria-expanded="false" aria-controls="panelsStayOpen-collapse36">
                     120 + 22 KW ADC CCS2 +Chademo + Type 2- 3G - Galaxy Series (Guns # 3)

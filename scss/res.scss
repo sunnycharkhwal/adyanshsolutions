@@ -184,7 +184,6 @@
     }
   }
   .ifm_card_text_div {
-    width: auto;
     margin-left: 20px;
     h3 {
       font-size: 15px;
@@ -195,15 +194,7 @@
       font-size: 11px;
     }
   }
-  .ifm_card_top_div {
-    width: auto;
-  }
-  .ifm_card_div {
-    width: auto;
-    .ifm_img {
-      width: auto;
-    }
-  }
+
   .index_page_btn_div {
     height: 6rem;
     margin: auto;
@@ -375,18 +366,9 @@
     height: 20rem;
   }
   .ifm_card_text_div {
-    width: auto;
     margin-left: 20px;
   }
-  .ifm_card_top_div {
-    width: auto;
-  }
-  .ifm_card_div {
-    width: auto;
-    .ifm_img {
-      width: auto;
-    }
-  }
+
   .index_about_img {
     width: 32rem;
     height: 22rem;
@@ -486,6 +468,11 @@
   }
 }
 @media (min-width: 1024px) {
+  .ifm_card_text_div {
+    h3 {
+      font-size: 15px;
+    }
+  }
   .top_nav_itms {
     a {
       font-size: 12px;
@@ -573,18 +560,9 @@
     height: 27rem;
   }
   .ifm_card_text_div {
-    width: auto;
     margin-left: 20px;
   }
-  .ifm_card_top_div {
-    width: auto;
-  }
-  .ifm_card_div {
-    width: auto;
-    .ifm_img {
-      width: auto;
-    }
-  }
+
   .index_page_btn_div {
     img {
       width: 4rem;
@@ -653,6 +631,11 @@
   }
 }
 @media (min-width: 1440px) {
+  .ifm_card_text_div {
+    h3 {
+      font-size: 18px;
+    }
+  }
   .top_nav_itms {
     a {
       font-size: 15px;
@@ -695,18 +678,9 @@
     height: 27rem;
   }
   .ifm_card_text_div {
-    width: 95%;
     margin-left: 20px;
   }
-  .ifm_card_top_div {
-    width: 25rem;
-  }
-  .ifm_card_div {
-    width: 25rem;
-    .ifm_img {
-      width: 25rem;
-    }
-  }
+
   .index_page_btn_div {
     img {
       width: 5rem;

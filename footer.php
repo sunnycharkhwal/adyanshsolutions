@@ -116,25 +116,25 @@
                     <h5>Our Social Media</h5>
                     <ul>
                         <li>
-                            <a href="#!">
+                            <a href="https://www.facebook.com/people/Adyansh-Solutions/100092876258875/?mibextid=LQQJ4d" target="_blank">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         Facebook</span></p>
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="https://www.instagram.com/adyanshsolutions/" target="_blank">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         Instagram</span></p>
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="https://www.linkedin.com/company/adyansh-solutions/" target="_blank">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         Linkedin</span></p>
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="https://twitter.com/adyanshsol?s=11" target="_blank">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         twitter</span></p>
                             </a>
@@ -150,10 +150,18 @@
     </div>
 </footer>
 <!-- Footer -->
+<!-- script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        disable: false,
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
-
 <script src="script.js"></script>
+<!-- script end -->
 </body>
 
 </html>

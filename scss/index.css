@@ -330,7 +330,6 @@ a {
 
 .ifm_card_div {
   overflow: hidden;
-  width: 22rem;
   height: 18rem;
   margin: auto;
   border-top-left-radius: 21px;
@@ -339,7 +338,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 22rem;
+  width: 100%;
   height: 18rem;
   margin: auto;
   border-top-left-radius: 21px;
@@ -350,7 +349,6 @@ a {
 }
 
 .ifm_card_top_div {
-  width: 25rem;
   margin: auto;
   position: relative;
 }
@@ -368,7 +366,6 @@ a {
 .ifm_card_text_div {
   background-color: white;
   margin-top: -4rem;
-  width: 84%;
   position: relative;
   padding: 1rem;
   margin-left: 40px;

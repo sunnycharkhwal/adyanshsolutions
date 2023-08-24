@@ -59,41 +59,41 @@
 <section class="container pb-5">
     <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="title_index_about">
+            <div class="title_index_about" data-aos="zoom-in" data-aos-duration="2000">
                 <p><i class="fas fa-circle"></i> about</p>
                 <h3>
                     Who we are
                 </h3>
             </div>
-            <div class="index_about_text_div">
+            <div class="index_about_text_div" data-aos="zoom-in" data-aos-duration="2000">
                 <p>Adyansh Solutions (A Green Industry Business) is known for its sustainable and eco-
                     friendly retailing that unionizes concern for the environment, profitability, and goodwill for the
                     common good as its forefront.</p>
             </div>
-            <div class="title_index_about">
+            <div class="title_index_about" data-aos="zoom-in" data-aos-duration="2000">
                 <h3>
                     Mission
                 </h3>
             </div>
-            <div class="index_about_text_div">
+            <div class="index_about_text_div" data-aos="zoom-in" data-aos-duration="2000">
                 <p>We are committed to a sustainable future and to improving the social, economic and
                     environmental well-being of the community. We are dedicated to environmental improvements that
                     foster a sustainable future and lead to social and economic improvements in the community we do
                     business.</p>
             </div>
-            <div class="title_index_about">
+            <div class="title_index_about" data-aos="zoom-in" data-aos-duration="2000">
                 <h3>
                     Vision
                 </h3>
             </div>
-            <div class="index_about_text_div">
+            <div class="index_about_text_div" data-aos="zoom-in" data-aos-duration="2000">
                 <p>To be the leading environment friendly products and related services company. To provide
                     customers of all segments of the society with reliable, professional and innovative solutions and
                     services through friendly, excellent and convenient services.</p>
             </div>
         </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="index_about_img" style="background-image: url('img/index1.png');"></div>
+            <div class="index_about_img" style="background-image: url('img/index1.png');" data-aos="zoom-out" data-aos-duration="2000"></div>
         </div>
     </div>
 </section>
@@ -101,18 +101,7 @@
 <!-- index page btn -->
 <section class="container pb-5">
     <div class="row g-2 justify-content-center">
-        <!-- <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-            <a href="#ifm">
-                <div class="index_page_btn_div">
-                    <img src="img/index2.png" alt="icon">
-                    <h3>( IFM ) Services</h3>
-                    <p>Integrated Facility Management
-                        across Industrial, Commercial, Residential, Schools, Universities, Hospitals
-                        etc.</p>
-                </div>
-            </a>
-        </div> -->
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6" data-aos="flip-left" data-aos-duration="3000">
             <a href="#it">
                 <div class="index_page_btn_div">
                     <img src="img/index3.png" alt="icon">
@@ -123,7 +112,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6" data-aos="flip-left" data-aos-duration="3000">
             <a href="#pcs">
                 <div class="index_page_btn_div">
                     <img src="img/index4.png" alt="icon">
@@ -133,7 +122,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6" data-aos="flip-left" data-aos-duration="3000">
             <a href="#evcs">
                 <div class="index_page_btn_div">
                     <img src="img/index5.png" alt="icon">
@@ -143,145 +132,95 @@
                 </div>
             </a>
         </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6" data-aos="flip-left" data-aos-duration="3000">
+            <a href="#ss">
+                <div class="index_page_btn_div">
+                    <img src="img/index2.png" alt="icon">
+                    <h3>Support Services</h3>
+                    <p>Integrated Facility Management
+                        across Industrial, Commercial, Residential, Schools, Universities, Hospitals
+                        etc.</p>
+                </div>
+            </a>
+        </div>
     </div>
 </section>
 <!-- index page btn -->
-<!-- Integrated Facility Management Services -->
-<!-- <section class="mb-5 ifm_top_div" id="ifm">
+<?php include 'mobileApp.php'; ?>
+<!-- Support Services -->
+<section class="mb-5 ifm_top_div" id="ss">
     <div class="container">
-        <div class="title_index_about title_index_about2">
-            <p><i class="fas fa-circle"></i> IFM</p>
+        <div class="title_index_about title_index_about2 mb-xl-5 mb-3">
+            <p><i class="fas fa-circle"></i> Services</p>
             <h3>
-                Integrated Facility Management Services
+                Support Services
             </h3>
         </div>
-        <div class="mt-5">
-            <div class="owl-new owl-carousel owl-theme">
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm1.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Professional Housekeeping</h3>
-                            <p>We Provide Professional Housekeeping Services Leading To A Clean, Comfortable, Safe And
-                                Aesthetically Appealing Environment</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
+        <div class="row g-md-4 g-3 justify-content-center">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="ifm_card_top_div ">
+                    <div class="ifm_card_div">
+                        <div class="ifm_img" style="background-image: url('img/ss1.webp');"></div>
+                    </div>
+                    <div class="ifm_card_text_div">
+                        <h3><i class="fas fa-circle"></i>IT Time-Hire</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm2.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Garden Maintenance</h3>
-                            <p>We Help Create, Nourish And Manage Native Gardens To Maintain The Beauty Of Plants,
-                                Outdoor Grounds, And Trees In A Garden And Giving Your Eyes A Soothing Effect</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="ifm_card_top_div ">
+                    <div class="ifm_card_div">
+                        <div class="ifm_img" style="background-image: url('img/ss2.webp');"></div>
+                    </div>
+                    <div class="ifm_card_text_div">
+                        <h3><i class="fas fa-circle"></i>Blue Collar Staffing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm3.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Civil, Electrical, Painting Turn-Ke</h3>
-                            <p>We Undertake All Type Of Infra Related Activities From Design To Build And Also Undertake
-                                Annual Rate Contract For Similar Activities</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="ifm_card_top_div ">
+                    <div class="ifm_card_div">
+                        <div class="ifm_img" style="background-image: url('img/ss3.webp');"></div>
+                    </div>
+                    <div class="ifm_card_text_div">
+                        <h3><i class="fas fa-circle"></i>White Collar Staffing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm4.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Fabrication, Ducting, Hot & Cold Insulation</h3>
-                            <p>We Offer Comprehensive Services For Varied Industrial, Residential And Commercial Sectors
-                                Through Our Strong Infrastructural Support</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="ifm_card_top_div ">
+                    <div class="ifm_card_div">
+                        <div class="ifm_img" style="background-image: url('img/ss4.webp');"></div>
+                    </div>
+                    <div class="ifm_card_text_div">
+                        <h3><i class="fas fa-circle"></i>Project Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm5.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Aggregator / Integrator</h3>
-                            <p>We Procurement Service Provide (PSP) Offer Procurement Outsourcing Services For Our
-                                Customers To Utilize Opportunities To Save Cost (Tail-End Management), Streamline
-                                Processes Enabling Them To Focus On Their Core Business.</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="ifm_card_top_div ">
+                    <div class="ifm_card_div">
+                        <div class="ifm_img" style="background-image: url('img/ss5.webp');"></div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm6.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>E-Waste Management</h3>
-                            <p>Through Our Strong Back-End Contract With Certified E-Waste Management Companies We
-                                Establish A True Reverse-Logistics Chain For E-Waste, From Consumers To Recyclers</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm7.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Blue And White Collar Staffing</h3>
-                            <p>We Provide Blue & White Collar Services Covering Permanent, Contract And Temporary Jobs
-                                In The Major Industries</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm8.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>Scrap Management, Handling And Disposal</h3>
-                            <p>We Provide Extraordinary Services Majorly For The Scrap Handling And Various Disposal
-                                Activities With Reduce, Reuse And Recycle Applications As Part Of Our Commitment For A
-                                Sustainable Environment.</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ifm_card_top_div ">
-                        <div class="ifm_card_div">
-                            <div class="ifm_img" style="background-image: url('img/ifm9.webp');"></div>
-                        </div>
-                        <div class="ifm_card_text_div">
-                            <h3><i class="fas fa-circle"></i>MHE Maintenance</h3>
-                            <p>Armed With A Team Of Trained, Qualified, And Experienced Professionals In The MHE
-                                Industry, We Offer A Wide Range Of Services Including Dealing In Old & New MHE.P</p>
-                            <a href="#" class="ifm_contact_btn"> Get a quote</a>
-                        </div>
+                    <div class="ifm_card_text_div">
+                        <h3><i class="fas fa-circle"></i>E-Waste disposal Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
-<!-- Integrated Facility Management Services end -->
-<?php include 'mobileApp.php'; ?>
+</section>
+<!-- Support Services end -->
 <!-- IT And Non-IT Supplies -->
 <section class="container pb-5" id="it">
     <div class="title_index_about title_index_about2">
@@ -341,14 +280,14 @@
 <section class=" mb-5 pcs_top_div" id="pcs">
     <div class="pcs_overlaey_div">
         <div class="container">
-            <div class="title_index_about title_index_about2">
+            <div class="title_index_about title_index_about2 mb-lg-5 mb-3">
                 <p><i class="fas fa-circle"></i> Services</p>
                 <h3>
                     Professional Consultancy Services
                 </h3>
             </div>
             <div class="row  g-xxl-5 g-xl-5 g-lg-4 g-md-4 g-sm-4 g-4">
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -366,7 +305,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -384,7 +323,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -402,7 +341,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -420,7 +359,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -438,7 +377,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -456,7 +395,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
                     <ul class="pcs_inner_div">
                         <li>
                             <div class="pcs_inner_img_div">
@@ -493,7 +432,7 @@
                 <h3>IT and non-IT Supplies</h3>
                 <p>Choose from wide variety of IT, Industrial Spares (MRO), Stationery,
                     Housekeeping, Corporate gifts and many more.</p>
-                <div class="electric_vehicle_img" style="background-image: url('img/ev1.jpg');"></div>
+                <div class="electric_vehicle_img" style="background-image: url('img/ev1.webp');"></div>
             </div>
         </div>
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">

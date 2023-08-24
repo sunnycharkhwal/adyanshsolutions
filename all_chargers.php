@@ -1,7 +1,7 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 <!-- all page top header -->
 <div class="top_header_all_page mb-5">
-    <div class="top_header_all_page_img" style="background-image: url('img/evt.jpeg');"></div>
+    <div class="top_header_all_page_img" style="background-image: url('img/evt.webp');"></div>
     <div class="top_header_all_page_inner">
         <div class="top_header_text_div">
             <h3>All Chargers</h3>
@@ -83,7 +83,7 @@
     </div>
 </section>
 <!-- photo list end -->
-<?php include 'mobileApp.php';?>
+<?php include 'mobileApp.php'; ?>
 <section class="container mb-5 ">
     <div class="row g-3">
         <div class="col-12">
@@ -98,4 +98,4 @@
         </div>
     </div>
 </section>
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>

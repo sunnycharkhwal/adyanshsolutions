@@ -50,17 +50,17 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'E-Rickshaws.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="E-Rickshaws.php">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'E-Rickshaws.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="#!">
                                               <span>E-Rickshaws</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'E-Loaders.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="E-Loaders.php">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'E-Loaders.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="#!">
                                               <span>E-Loaders</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'Electric.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="Electric.php">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'Electric.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="#!">
                                               <span>Electric 2-
                                                   Wheelers</span>
                                           </a>
@@ -72,7 +72,7 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="dropdown-item" href="index.php#ifm">
+                                          <a class="dropdown-item" href="index.php#ss">
                                               <span>Support Services</span>
                                           </a>
                                       </li>

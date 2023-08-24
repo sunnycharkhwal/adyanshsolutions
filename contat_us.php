@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
 <!-- all page top header -->
 <div class="top_header_all_page mb-5">
-    <div class="top_header_all_page_img" style="background-image: url('img/evt.jpeg');"></div>
+    <div class="top_header_all_page_img" style="background-image: url('img/evt.webp');"></div>
     <div class="top_header_all_page_inner">
         <div class="top_header_text_div">
             <h3>contact us</h3>
@@ -41,7 +41,7 @@
 <!-- box -->
 <section class=" mb-5 container">
     <div class="row g-3 justify-content-center">
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
             <ul class="contact_box">
                 <li>
                     <img src="img/c1.png" alt="icon">
@@ -55,7 +55,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
             <ul class="contact_box">
                 <li>
                     <img src="img/c2.png" alt="icon">
@@ -69,7 +69,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="zoom-out" data-aos-duration="3000">
             <ul class="contact_box">
                 <li>
                     <img src="img/c3.png" alt="icon">
@@ -100,7 +100,7 @@
                     <p class="contact_form_div_ul_p">Just send us your questions or concerns to
                         starting a new project.</p>
                     <ul class="contact_form_div_ul">
-                        <li><img src="img/c4.png" alt="icon"></li>
+                        <li><img src="img/c4.png" alt="icon" data-aos="zoom-out" data-aos-duration="3000"></li>
                         <li>
                             <p>HAVE A QUESTION?</p>
                             <h3>+888 445 55 678 & 89</h3>
