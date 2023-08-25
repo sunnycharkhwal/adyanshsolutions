@@ -89,12 +89,12 @@
                                   </a>
                                   <ul class="dropdown-menu fade-up">
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'ev_charger_franchise.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_charger_franchise.php">
                                               <span>EV-Charger-Franchisee</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a class="dropdown-item" href="#">
+                                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'smart_lot_telematics.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="smart_lot_telematics.php">
                                               <span> Smart IOT & Telematics</span>
                                           </a>
                                       </li>

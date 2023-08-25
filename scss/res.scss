@@ -3,6 +3,16 @@
 @media (max-width: 320px) {
 }
 @media (max-width: 576px) {
+  .features_cms_div {
+    li {
+      h3 {
+        font-size: 17px;
+      }
+    }
+  }
+  .dashboard_view_img {
+    height: 15rem;
+  }
   .electric_vehicle {
     height: auto;
   }
@@ -291,6 +301,9 @@
   }
 }
 @media (min-width: 768px) {
+  .dashboard_view_img {
+    height: 25rem;
+  }
   .photo_list_div img {
     width: 100%;
     height: 30rem;
@@ -468,6 +481,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .dashboard_view_img {
+    height: 34rem;
+  }
   .ifm_card_text_div {
     h3 {
       font-size: 15px;
@@ -631,6 +647,9 @@
   }
 }
 @media (min-width: 1440px) {
+  .dashboard_view_img {
+    height: 34rem;
+  }
   .ifm_card_text_div {
     h3 {
       font-size: 18px;

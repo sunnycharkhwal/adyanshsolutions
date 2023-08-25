@@ -90,13 +90,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="ev_charger_franchise.php">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         EV-Charger-Franchisee</span></p>
                             </a>
                         </li>
                         <li>
-                            <a href="#!">
+                            <a href="smart_lot_telematics.php">
                                 <p><i class="fas fa-circle" aria-hidden="true"></i><span>
                                         Smart IOT & Telematics</span></p>
                             </a>
