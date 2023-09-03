@@ -41,9 +41,9 @@
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                 <div class="footer_text_div">
                     <img src="img/logo.png" alt="footer logo">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur ea inventore. Alias possimus
-                        harum, repudiandae inventore accusamus laborum, illum recusandae incidunt natus ex veniam nobis
-                        ab magnam reprehenderit enim?</p>
+                    <p>We aim to deliver smart, innovative, end-end solutions that can help your organisation grow
+                        profitability, improve productivity and happy work environment. We offer One-stop solution for all
+                        our customers</p>
                 </div>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">

@@ -1220,7 +1220,7 @@ $data36a = [
 
         </p>
     </div>
-    <div class="accordion ev_table_list mt-4" id="accordionPanelsStayOpenExample">
+    <div class="accordion  ev_table_list mt-4" id="accordionPanelsStayOpenExample">
         <!-- list 1 -->
         <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo1">

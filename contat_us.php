@@ -103,10 +103,10 @@
                         <li><img src="img/c4.png" alt="icon" data-aos="zoom-out" data-aos-duration="3000"></li>
                         <li>
                             <p>HAVE A QUESTION?</p>
-                            <h3>+888 445 55 678 & 89</h3>
+                            <h3>+91 8980022288</h3>
                         </li>
                     </ul>
-                    <p class="contact_form_div_ul_p">Monday – Friday 9.00 – 6.00
+                    <p class="contact_form_div_ul_p">Monday – Saturday 9.00 – 6.00
                     </p>
                     <p class="contact_form_div_ul_p">
                         Sunday & Public Holidays (Closed)

@@ -137,9 +137,8 @@
                 <div class="index_page_btn_div">
                     <img src="img/index2.png" alt="icon">
                     <h3>Support Services</h3>
-                    <p>Integrated Facility Management
-                        across Industrial, Commercial, Residential, Schools, Universities, Hospitals
-                        etc.</p>
+                    <p>Professionally managed support services to cater customer requirements by providing Contractual
+                        Resources, Project Management and E-wastes disposal</p>
                 </div>
             </a>
         </div>
@@ -164,7 +163,8 @@
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>IT Time-Hire</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <p>Backed by strong network of professionals to manage IT support services like On-Call
+                            Support, short to long term IT Time-Hire and IT Helpdesk services</p>
                         <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
@@ -176,7 +176,8 @@
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>Blue Collar Staffing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <p>Backed by a pool of blue collar resources in managing the non-core activities of
+                            various customers</p>
                         <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
@@ -188,7 +189,8 @@
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>White Collar Staffing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <p>Backed by a pool of white collar resources in managing the core and non-core
+                            activities of various customers</p>
                         <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
@@ -200,7 +202,8 @@
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>Project Management</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <p>Back by strong network of Project Managers for managing Building
+                            Constructions, Supply Chain Management, IT Projects roll-outs and even more</p>
                         <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
@@ -212,7 +215,8 @@
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>E-Waste disposal Management</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis sint iusto minima ut perferendis officia cumque aliquid veritatis similique.</p>
+                        <p>Backed by various authorized agencies in managing the proper
+                            environmental friendly disposal of customer e-wastes.</p>
                         <a href="contat_us.php" class="ifm_contact_btn"> Get a quote</a>
                     </div>
                 </div>
