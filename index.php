@@ -32,8 +32,7 @@
                 <div class="slider_text_div">
                     <h1>We provide IT<span> & Non-IT Supplies
                         </span></h1>
-                    <p>Our purpose is to provide best quality charging solutions for your vehicles as we care
-                        for you and our environment
+                    <p>Our wide range of IT and non-IT supplies and system equips you with full of tools that compete with big and established vendors in the space.
                     </p>
                     <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
                 </div>
@@ -43,10 +42,9 @@
             <div class="slider_my">
                 <img src="img/slider4.webp" alt="slider">
                 <div class="slider_text_div">
-                    <h1 class="slider_4_title">We are the best Integrated<span> Facility Management Services provide
+                    <h1 class="slider_4_title">Support<span> and Professional Consultancy Services
                         </span></h1>
-                    <p>Our purpose is to provide best quality charging solutions for your vehicles as we care
-                        for you and our environment
+                    <p>Our wide range of services provides you flexibility to choose from any / all set of the services.
                     </p>
                     <a href="contat_us.php" class="nav_contact_btn"> Get a quote</a>
                 </div>
@@ -159,7 +157,7 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                 <div class="ifm_card_top_div ">
                     <div class="ifm_card_div">
-                        <div class="ifm_img" style="background-image: url('img/ss1.webp');"></div>
+                        <div class="ifm_img" style="background-image: url('img/ss2.webp');"></div>
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>IT Time-Hire</h3>
@@ -172,7 +170,7 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                 <div class="ifm_card_top_div ">
                     <div class="ifm_card_div">
-                        <div class="ifm_img" style="background-image: url('img/ss2.webp');"></div>
+                        <div class="ifm_img" style="background-image: url('img/ss1.jpg');"></div>
                     </div>
                     <div class="ifm_card_text_div">
                         <h3><i class="fas fa-circle"></i>Blue Collar Staffing</h3>
@@ -454,7 +452,7 @@
                 <p>Choose the best eco-friendly electric
                     rickshaws and Loaders and proudly become part of our sustainability initiatives in line with
                     Government of India initiatives.</p>
-                <div class="electric_vehicle_img" style="background-image: url('img/ev3.jpg');"></div>
+                <div class="electric_vehicle_img" style="background-image: url('img/ev3.jpeg');"></div>
             </div>
         </div>
 

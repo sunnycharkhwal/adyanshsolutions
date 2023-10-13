@@ -26,7 +26,7 @@
                 </h3>
             </div>
             <div class="index_about_text_div index_about_text_div2">
-                <p>With inhouse developed EV Chargers, Mobile App CMS, we have a wide Charging solution range from 3.3 kW to 200 kW (AC DC Chargers). Our Business model is planned to take everyone together at one platform EV Owners, Cab Fleets, Commercial Parking spaces, Malls and Multiplexes, Individual Business/CPOs. Become our partner and contact us for EV charger franchisee today!</p>
+                <p>With Make-in-India initiative, we deal in EV Chargers, IT Hardware, Industrial Spares and Parts having a wide range of Charging solution from 3.3 kW to 240 kW (AC and DC Chargers), Refurbished IT Hardware and Non-IT supplies. Our Business model is planned to take everyone together at one platform. Become our partner and contact us today!</p>
             </div>
         </div>
     </div>
@@ -41,8 +41,8 @@
                     <div class="patner_img_div_inner">
                         <div>
                             <div class="f_form_div">
-                                <p>JOIN OUR NEWSLETTER</p>
-                                <h3>Nam ultrices ultrices nec tortor pulvinar esteras loremips est orem.</h3>
+                                <p> Interested in becoming our Partner</p>
+                                <h3> Join hands with us in becoming a eco-friendly service provider</h3>
                             </div>
                             <div class="row g-2">
                                 <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">

@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // $headers .= "From: " . $from . "\r\n";
     // $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
     //preparing email prameters
-    $to = "sunny.charkhwal@gmail.com";
+    $to = "adyansh.solutions@gmail.com";
     // $to2 = "shivindservices@outlook.com";
     $subject = "New enquiry";
     //sending email to user

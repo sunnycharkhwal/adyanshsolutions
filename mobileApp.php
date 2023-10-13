@@ -1,5 +1,5 @@
 <!-- mobile app -->
-<section class="container pb-5">
+<section class="container pb-5 d-none">
     <div class="row g-3">
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
             <div class="index_mobile_img" style="background-image: url('img/m.jpg');"></div>

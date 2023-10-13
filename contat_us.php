@@ -63,8 +63,7 @@
                 <li>
                     <div>
                         <h3>Phone Number​</h3>
-                        <p>+91 8980022288</p>
-                        <p>+91 8980022299</p>
+                        <p>+91 8980067898</p>
                     </div>
                 </li>
             </ul>
@@ -103,7 +102,7 @@
                         <li><img src="img/c4.png" alt="icon" data-aos="zoom-out" data-aos-duration="3000"></li>
                         <li>
                             <p>HAVE A QUESTION?</p>
-                            <h3>+91 8980022288</h3>
+                            <h3>+91 8980067898</h3>
                         </li>
                     </ul>
                     <p class="contact_form_div_ul_p">Monday – Saturday 9.00 – 6.00
@@ -148,7 +147,7 @@
 </section>
 <!-- contact form end-->
 <!-- map -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.2326742124783!2d73.1689721149468!3d22.307038498287238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9fc916af707%3A0xd48af8a3c6bfda69!2sShiv%20Industrial%20Services!5e0!3m2!1sen!2sin!4v1679726329776!5m2!1sen!2sin" class="map_my" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.2326742124783!2d73.1689721149468!3d22.307038498287238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9fc916af707%3A0xd48af8a3c6bfda69!2sShiv%20Industrial%20Services!5e0!3m2!1sen!2sin!4v1679726329776!5m2!1sen!2sin" class="map_my d-none" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!-- map -->
 <script src="contactForm/form.js"></script>
 
