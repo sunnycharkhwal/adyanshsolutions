@@ -51,7 +51,7 @@
                     <h5>Quick Contact</h5>
                     <ul>
                         <li>
-                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>+91 8980067898</span></p>
+                            <p><i class="fas fa-circle" aria-hidden="true"></i><span>+91 8128463535</span></p>
                         </li>
 
                         <li>

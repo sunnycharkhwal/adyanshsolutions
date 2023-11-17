@@ -63,7 +63,8 @@
                 <li>
                     <div>
                         <h3>Phone Number​</h3>
-                        <p>+91 8980067898</p>
+                        <p>+91 8128463535</p>
+                        <p>+91 8128643535</p>
                     </div>
                 </li>
             </ul>
@@ -102,7 +103,7 @@
                         <li><img src="img/c4.png" alt="icon" data-aos="zoom-out" data-aos-duration="3000"></li>
                         <li>
                             <p>HAVE A QUESTION?</p>
-                            <h3>+91 8980067898</h3>
+                            <h3>+91 8128463535</h3>
                         </li>
                     </ul>
                     <p class="contact_form_div_ul_p">Monday – Saturday 9.00 – 6.00
